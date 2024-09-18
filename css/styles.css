@@ -1,0 +1,181 @@
+
+
+body {
+background-color: #0E0E0F;
+color: #AE45FF;
+}
+
+
+
+.sidenav {
+  height: 100%;
+  width: 180px;
+  position: fixed;
+  /* z-index: 1; */
+  /* top: 0; */
+  /* left: 0; */
+  background-color: #1E1427;
+  overflow-x: hidden;
+  padding-top: 20px;
+  font-family:cursive;
+  font-weight: lighter;
+  
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #AE45FF;
+}
+
+.sidenav h4 {
+  font-style: italic;
+  font-size: 20px;
+  color: wheat;
+}
+
+
+
+.main{
+  display: flex;
+  flex-direction: row;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #AE45FF;
+  margin-bottom: 70px;
+ 
+}
+
+ .main h4{
+  font-weight: 500;
+
+
+ }
+
+
+
+.main h1 {
+  padding-bottom: 30px;
+  
+}
+
+.main p {
+  font-size: 22px;
+  color: rgba(245, 245, 245, 0.808);
+  line-height: 30px;
+}
+
+.main-text{
+  margin-left: 200px; 
+  font-size: 28px; 
+  width: 50%;
+  margin-top: 60px;
+  
+}
+
+.main-image {
+ width: 50%;
+ margin-right: 50px; 
+}
+
+.main-image img {
+ width: 100%;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+.services {
+  padding-left: 200px;
+  color: rgba(245, 245, 245, 0.808);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom: 70px;
+
+  
+}
+
+
+.sub-services {
+  display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-column-gap: 45px;
+grid-row-gap: 45px;
+}
+
+
+
+
+.services-developer { 
+  border:  #1E1427;
+  border-left: #AE45FF;
+  border-style: solid;
+  border-radius: 15px;
+  padding: 40px;
+  background-color: black;
+  position: relative;
+  padding-top: 60px;
+  
+
+}
+
+.services-developer :hover {
+
+
+}
+
+
+.services h2 {
+  font-size: 50px;
+  margin-left: 300px;
+  
+
+}
+
+.services h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.services p {
+  line-height: 25px;
+  font-size: 18px;
+  color: rgba(245, 245, 245, 0.5);
+}
+
+.services-no {
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  background-color: #AE45FF;
+  color: rgb(255, 255, 255);
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 10px;
+  height: 80px;
+  border-radius: 5px;
+  font-weight: bolder;
+
+}
+
+.services-developer a {
+
+text-decoration: none;
+color: #AE45FF;
+
+}
+
+.services-developer a:hover{
+  text-decoration: underline;
+  color: #AE45FF;
+  
+}
+
