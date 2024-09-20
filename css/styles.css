@@ -1,8 +1,6 @@
-
-
 body {
-background-color: #0E0E0F;
-color: #AE45FF;
+  background-color: #0E0E0F;
+  color: #AE45FF;
 }
 
 
@@ -17,9 +15,9 @@ color: #AE45FF;
   background-color: #1E1427;
   overflow-x: hidden;
   padding-top: 20px;
-  font-family:cursive;
+  font-family: cursive;
   font-weight: lighter;
-  
+
 }
 
 .sidenav a {
@@ -42,26 +40,26 @@ color: #AE45FF;
 
 
 
-.main{
+.main {
   display: flex;
   flex-direction: row;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #AE45FF;
   margin-bottom: 70px;
- 
+
 }
 
- .main h4{
+.main h4 {
   font-weight: 500;
 
 
- }
+}
 
 
 
 .main h1 {
   padding-bottom: 30px;
-  
+
 }
 
 .main p {
@@ -70,52 +68,61 @@ color: #AE45FF;
   line-height: 30px;
 }
 
-.main-text{
-  margin-left: 200px; 
-  font-size: 28px; 
+.main-text {
+  margin-left: 200px;
+  font-size: 28px;
   width: 50%;
   margin-top: 60px;
-  
+
 }
 
 .main-image {
- width: 50%;
- margin-right: 50px; 
+  width: 50%;
+  margin-right: 50px;
 }
 
 .main-image img {
- width: 100%;
+  width: 100%;
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+/* @media screen and (max-height: 450px) { */
+  .sidenav {
+    padding-top: 15px;
+  }
 
+  .sidenav a {
+    font-size: 18px;
+  }
+
+
+/* #Services {
+  scroll-behavior: smooth;
+} */
 
 .services {
-  padding-left: 200px;
+  padding-left: 250px;
   color: rgba(245, 245, 245, 0.808);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin-bottom: 70px;
+  padding-right: 60px;
 
-  
+
 }
 
 
 .sub-services {
   display: grid;
-grid-template-columns: repeat(2, 1fr);
-grid-template-rows: repeat(2, 1fr);
-grid-column-gap: 45px;
-grid-row-gap: 45px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
 }
 
 
 
 
-.services-developer { 
-  border:  #1E1427;
+.services-developer {
+  border: #1E1427;
   border-left: #AE45FF;
   border-style: solid;
   border-radius: 15px;
@@ -123,7 +130,7 @@ grid-row-gap: 45px;
   background-color: black;
   position: relative;
   padding-top: 60px;
-  
+
 
 }
 
@@ -136,11 +143,11 @@ grid-row-gap: 45px;
 .services h2 {
   font-size: 50px;
   margin-left: 300px;
-  
+
 
 }
 
-.services h1{
+.services h1 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -168,14 +175,199 @@ grid-row-gap: 45px;
 
 .services-developer a {
 
-text-decoration: none;
-color: #AE45FF;
+  text-decoration: none;
+  color: #AE45FF;
 
 }
 
-.services-developer a:hover{
+.services-developer a:hover {
   text-decoration: underline;
   color: #AE45FF;
-  
+ 
+
 }
+
+.skills {
+  padding-left: 250px;
+  color: rgba(245, 245, 245, 0.884);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding-top: 20px;
+  margin-bottom: 70px;
+
+}
+
+hr {
+  margin-right: 250px;
+  margin-left: 400px;
+  border-color: #AE45FF;
+  background-color: #AE45FF;
+  border-top: 7px solid ;
+  border-bottom: 7px solid;
+  clip-path: polygon(0% 10%, 10% 0%, 20% 10%, 30% 0%, 40% 10%, 50% 0%, 60% 10%, 70% 0%, 80% 10%, 90% 0%, 100% 10%);
+
+}
+
+
+.skills-text h1 {
+  text-align: center;
+  font-size: 50px;
+  
+
+}
+
+/* .skills-text h1 :hover {
+text-decoration: underline;
+color: #AE45FF;
+} */
+
+.skills-text p {
+  font-size: 25px;
+}
+
+.html-container {
+  width: 60%;
+  background-color: black;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+}
+
+.css-container {
+  width: 50%;
+  background-color: black;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+}
+
+.js-container {
+  width: 25%;
+  background-color: black;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+}
+
+.dev-container {
+  width: 45%;
+  background-color: black;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 40px;
+}
+
+
+
+
+.html {
+  color: white;
+  background-color: #AE45FF;
+  width: 13%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 85%;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.css {
+  color: white;
+  background-color: #AE45FF;
+  width: 15%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 83%;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+
+}
+
+.js {
+  color: white;
+  background-color: #AE45FF;
+  width: 30%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 65%;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.dev {
+  color: white;
+  background-color: #AE45FF;
+  width: 17%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-left: 80%;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+
+.the-skills p {
+  font-size: 25px;
+  color: #AE45FF;
+  font-weight: bold;
+  margin-left: 30px;
+  margin-bottom: 3px;
+}
+
+.portfolio {
+  margin-right: 60px;
+  margin-left: 250px;
+  padding-top: 20px;
+}
+
+.portfolio h2 {
+  font-size: 50px;
+  color: rgba(245, 245, 245, 0.808);
+  text-align: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.set-a {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 60px;
+  grid-row-gap: 0px;
+}
+
+.set-a img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+.set-a2 {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 60px;
+
+}
+
+.set-a2 img {
+  height: 100%;
+}
+
 
