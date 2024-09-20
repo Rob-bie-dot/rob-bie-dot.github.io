@@ -49,6 +49,23 @@ body {
 
 }
 
+/* Typewriter effect */
+/* #typewriter-text {
+  border-right: 2px solid white;
+  font-family: 'Courier New', Courier, monospace;
+  white-space: nowrap;
+  /* overflow: hidden; */
+  /* display: inline-block;
+  width: 0;
+  animation: blink-caret 0.75s step-end infinite;
+} */ */
+
+  /* Blinking cursor animation */
+  /* @keyframes blink-caret {
+    50% { border-color: transparent; }
+  } */
+
+
 .main h4 {
   font-weight: 500;
 
@@ -329,6 +346,7 @@ color: #AE45FF;
   margin-right: 60px;
   margin-left: 250px;
   padding-top: 20px;
+  margin-bottom: 70px;
 }
 
 .portfolio h2 {
@@ -371,3 +389,98 @@ color: #AE45FF;
 }
 
 
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 10px;
+  background-color: #f2f2f2d5;
+  /* padding: 10px; */
+  /* align-items: center; */
+  width: 75%;
+  margin-left: 260px;
+  margin-bottom: 70px;
+  margin-top: 40px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+  
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  /* .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  } */
+}
+
+
+.column input {
+  width: 200%;
+}
+
+.column select {
+  width: 200%;
+}
+
+
+.column textarea {
+  width: 200%;
+}
+
+
+.submit {
+  width: 20%;
+  text-align: center;
+}
+
+
+
+.text-align-center h2 {
+  font-size: 60px;
+text-align: left;
+}
+
+.text-align-center p {
+ font-size: 20px;
+}
