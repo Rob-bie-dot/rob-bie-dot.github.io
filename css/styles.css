@@ -407,15 +407,16 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #AE45FF;
   color: white;
   padding: 12px 20px;
   border: none;
   cursor: pointer;
+  border-radius: 20px;
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: purple;
 }
 
 /* Style the container/contact section */
@@ -425,9 +426,12 @@ input[type=submit]:hover {
   /* padding: 10px; */
   /* align-items: center; */
   width: 75%;
+  height: 50%;
   margin-left: 260px;
   margin-bottom: 70px;
   margin-top: 40px;
+  color: #0E0E0F;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 /* Create two columns that float next to eachother */
@@ -435,8 +439,9 @@ input[type=submit]:hover {
   float: left;
   width: 50%;
   margin-top: 6px;
-  padding: 20px;
-  
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
 
 /* Clear floats after the columns */
@@ -476,11 +481,19 @@ input[type=submit]:hover {
 
 
 
-.text-align-center h2 {
-  font-size: 60px;
-text-align: left;
+.text-align h2 {
+  font-size: 30px;
+text-decoration: solid;
+color: #AE45FF;
+/* padding-bottom: -5px; */
+padding-top: 20px;
+padding-left: 20px;
 }
 
-.text-align-center p {
- font-size: 20px;
+.text-align p {
+ font-size: 50px;
+
+padding-left: 20px;
 }
+
+
